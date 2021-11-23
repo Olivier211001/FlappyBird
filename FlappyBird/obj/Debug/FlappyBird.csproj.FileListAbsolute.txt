@@ -1,0 +1,16 @@
+C:\Users\olivi\Desktop\cegep\session5\analyse_objet\Projet_de_session\FlappyBird\FlappyBird\obj\Debug\MainWindow.g.cs
+C:\Users\olivi\Desktop\cegep\session5\analyse_objet\Projet_de_session\FlappyBird\FlappyBird\obj\Debug\App.g.cs
+C:\Users\olivi\Desktop\cegep\session5\analyse_objet\Projet_de_session\FlappyBird\FlappyBird\obj\Debug\FlappyBird_MarkupCompile.cache
+C:\Users\olivi\Desktop\cegep\session5\analyse_objet\Projet_de_session\FlappyBird\FlappyBird\obj\Debug\FlappyBird_MarkupCompile.lref
+C:\Users\olivi\Desktop\cegep\session5\analyse_objet\Projet_de_session\FlappyBird\FlappyBird\bin\Debug\FlappyBird.exe.config
+C:\Users\olivi\Desktop\cegep\session5\analyse_objet\Projet_de_session\FlappyBird\FlappyBird\bin\Debug\FlappyBird.exe
+C:\Users\olivi\Desktop\cegep\session5\analyse_objet\Projet_de_session\FlappyBird\FlappyBird\bin\Debug\FlappyBird.pdb
+C:\Users\olivi\Desktop\cegep\session5\analyse_objet\Projet_de_session\FlappyBird\FlappyBird\obj\Debug\MainWindow.baml
+C:\Users\olivi\Desktop\cegep\session5\analyse_objet\Projet_de_session\FlappyBird\FlappyBird\obj\Debug\FlappyBird.g.resources
+C:\Users\olivi\Desktop\cegep\session5\analyse_objet\Projet_de_session\FlappyBird\FlappyBird\obj\Debug\FlappyBird.Properties.Resources.resources
+C:\Users\olivi\Desktop\cegep\session5\analyse_objet\Projet_de_session\FlappyBird\FlappyBird\obj\Debug\FlappyBird.csproj.GenerateResource.cache
+C:\Users\olivi\Desktop\cegep\session5\analyse_objet\Projet_de_session\FlappyBird\FlappyBird\obj\Debug\FlappyBird.csproj.CoreCompileInputs.cache
+C:\Users\olivi\Desktop\cegep\session5\analyse_objet\Projet_de_session\FlappyBird\FlappyBird\obj\Debug\FlappyBird.exe
+C:\Users\olivi\Desktop\cegep\session5\analyse_objet\Projet_de_session\FlappyBird\FlappyBird\obj\Debug\FlappyBird.pdb
+C:\Users\olivi\Desktop\cegep\session5\analyse_objet\Projet_de_session\FlappyBird\FlappyBird\obj\Debug\FlappyBird.csproj.AssemblyReference.cache
+C:\Users\olivi\Desktop\cegep\session5\analyse_objet\Projet_de_session\FlappyBird\FlappyBird\obj\Debug\FlappyBird_Content.g.cs
