@@ -50,7 +50,7 @@ namespace FlappyBird
             {
                 txtTimer.Foreground = new SolidColorBrush(Colors.Red);
             }
-            txtScore.Content = "score : " + score;
+            txtScore.Content = "score : " + score + " pts";
             flappyBirdHitBox = new Rect(Canvas.GetLeft(flappyBird), Canvas.GetTop(flappyBird), flappyBird.Width -5 , flappyBird.Height);
             Canvas.SetTop(flappyBird, Canvas.GetTop(flappyBird) + gravity);
             if(Canvas.GetTop(flappyBird) < -10 || Canvas.GetTop(flappyBird) > 458)
@@ -128,12 +128,13 @@ namespace FlappyBird
             gameTimer.Start();
         }
 
-        private void EndGame()
+        private void EndGame() 
         {
             txtTimer.Foreground = new SolidColorBrush(Colors.Black);
             gameTimer.Stop();
             MyCanvas.Background = new SolidColorBrush(Colors.Black);
-            MessageBoxResult result = MessageBox.Show("Your score : " + score.ToString() + "  Your time : " + totalTime.ToString("0.00") + " secs", "Game Over", MessageBoxButton.YesNo); // ajout 
+            MessageBoxImage icon = MessageBoxImage.Information;
+            MessageBoxResult result = MessageBox.Show("Your score : " + score.ToString() + " pts      Your time : " + totalTime.ToString("0.00") + " secs", "Game Over", MessageBoxButton.YesNo, icon); // ajout 
             totalTime = 0;
             switch (result)
             {
@@ -145,9 +146,6 @@ namespace FlappyBird
                     Close();
                     break;
             }
-            //changer le show pour quelque chose de plus wow 
-        }
-
-      
+        }      
     }
 }
