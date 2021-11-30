@@ -133,7 +133,7 @@ namespace FlappyBird
             txtTimer.Foreground = new SolidColorBrush(Colors.Black);
             gameTimer.Stop();
             MyCanvas.Background = new SolidColorBrush(Colors.Black);
-            MessageBoxImage icon = MessageBoxImage.Information;
+            MessageBoxImage icon = MessageBoxImage.Stop;
             MessageBoxResult result = MessageBox.Show("Your score : " + score.ToString() + " pts      Your time : " + totalTime.ToString("0.00") + " secs", "Game Over", MessageBoxButton.YesNo, icon); // ajout 
             totalTime = 0;
             switch (result)
