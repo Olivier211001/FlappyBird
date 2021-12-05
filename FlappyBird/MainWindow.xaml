@@ -4,14 +4,18 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FlappyBird"
+        xmlns:gmv="clr-namespace:FlappyBird.ViewModels"
         mc:Ignorable="d"
         Title="FlappyBird" Height="450" Width="800">
+    <Window.Resources>
+        <gmv:GameViewModels x:Key="vm"/>
+    </Window.Resources>
     <Canvas Name="MyCanvas" Focusable="True" KeyDown="KeyIsDown" KeyUp="KeyIsUp" Background="LightBlue">
+        <Button Name="Play" Content="Play" Command="{Binding PlayCommand, Source={StaticResource vm}}" Width="107" Canvas.Top="268" Height="30" Canvas.Left="10"/>
         <Image Source="images/clouds.png" Height="145" Width="200" Canvas.Left="73" Canvas.Top="59" Tag="cloud"></Image>
         <Image Source="images/clouds2.png" Height="145" Width="200" Canvas.Left="504" Canvas.Top="175" Tag="cloud"></Image>
         <Image Source="images/pipeBottom.png" Height="390" Width="66" Tag="obs1" Canvas.Top="288" Canvas.Left="151"></Image>
         <Image Source="images/pipeTop.png" Height="390" Width="66" Tag="obs1" Canvas.Top="-241" Canvas.Left="151"></Image>
-
 
         <Image Source="images/pipeBottom.png" Height="390" Width="66" Tag="obs2" Canvas.Top="329" Canvas.Left="401"></Image>
         <Image Source="images/pipeTop.png" Height="390" Width="66" Tag="obs2" Canvas.Top="-186" Canvas.Left="401"></Image>
@@ -21,7 +25,7 @@
 
         <Image Source="images/flappyBird.png" Width="50" Height="36" Name="flappyBird" Stretch="Fill" Canvas.Left="23" Canvas.Top="204"></Image>
 
-        <Label Name="txtScore" FontSize="22" FontWeight="ExtraBold" Content="score : 0"></Label>
+        <Label Name="txtScore" FontSize="22" FontWeight="ExtraBold" Content="score : 0"/>
         <Label Name="txtTimer" FontSize="22" FontWeight="ExtraBold" Content="Timer :  0" Height="61" Width="396" Canvas.Top="45"></Label>
     </Canvas>
 </Window>

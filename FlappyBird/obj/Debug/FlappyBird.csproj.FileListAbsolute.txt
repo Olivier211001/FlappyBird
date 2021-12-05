@@ -14,3 +14,4 @@ C:\Users\olivi\Desktop\cegep\session5\analyse_objet\Projet_de_session\FlappyBird
 C:\Users\olivi\Desktop\cegep\session5\analyse_objet\Projet_de_session\FlappyBird\FlappyBird\obj\Debug\FlappyBird.pdb
 C:\Users\olivi\Desktop\cegep\session5\analyse_objet\Projet_de_session\FlappyBird\FlappyBird\obj\Debug\FlappyBird.csproj.AssemblyReference.cache
 C:\Users\olivi\Desktop\cegep\session5\analyse_objet\Projet_de_session\FlappyBird\FlappyBird\obj\Debug\FlappyBird_Content.g.cs
+C:\Users\olivi\Desktop\cegep\session5\analyse_objet\Projet_de_session\FlappyBird\FlappyBird\obj\Debug\GeneratedInternalTypeHelper.g.cs
