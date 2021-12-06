@@ -40,7 +40,7 @@ namespace FlappyBird
             DataContext = gmv;
         }
         private void KeyIsDown(object sender, KeyEventArgs e)
-        { 
+        {
             if (e.Key == Key.Space)
             {
                 objectManager.flappyBird.RenderTransform = new RotateTransform(-20, objectManager.flappyBird.Width / 2, objectManager.flappyBird.Height / 2);
@@ -52,5 +52,6 @@ namespace FlappyBird
             objectManager.flappyBird.RenderTransform = new RotateTransform(5, objectManager.flappyBird.Width / 2, objectManager.flappyBird.Height / 2);
             gravity = 8;
         }
+
     }
 }

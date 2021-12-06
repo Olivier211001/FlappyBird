@@ -25,6 +25,22 @@ namespace FlappyBird.ViewModels
         private float totalTime = 0;
 
         public ICommand PlayCommand { get; set; }
+
+        public Timer getTimer()
+        {
+            return timer;
+        }
+
+        public double getScore()
+        {
+            return score;
+        }
+
+        public float getTotalTime()
+        {
+            return totalTime;
+        }
+
         public GameViewModels()
         {
             timer.GameTimer().Tick += MainEventTimer;
@@ -134,7 +150,7 @@ namespace FlappyBird.ViewModels
             objectManager.txtTimer.Foreground = new SolidColorBrush(Colors.Black);
             timer.GameTimer().Stop();
             objectManager.MyCanvas.Background = new SolidColorBrush(Colors.Black);
-            MessageBoxImage icon = MessageBoxImage.Stop;
+            MessageBoxImage icon = MessageBoxImage.Exclamation;
             MessageBoxResult result = MessageBox.Show("Your score : " + score.ToString() + " pts      Your time : " + totalTime.ToString("0.00") + " secs", "Game Over", MessageBoxButton.YesNo, icon); // ajout 
             totalTime = 0;
             switch (result)

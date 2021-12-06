@@ -9,8 +9,8 @@ namespace FlappyBird.Commands
 {
     public class PlayCommand : ICommand
     {
-        Action<object> executeMethod;
-        Func<object, bool> canexecuteMethod;
+        private Action<object> executeMethod;
+        private Func<object, bool> canexecuteMethod;
 
         public PlayCommand(Action<object> executeMethod, Func<object, bool> canexecuteMethod)
         {
